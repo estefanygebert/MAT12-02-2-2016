@@ -14,3 +14,11 @@
 \contentsline {subsection}{\numberline {2.2}Subtracting}{3}
 \contentsline {subsection}{\numberline {2.3}Multiply}{4}
 \contentsline {subsection}{\numberline {2.4}Dividing}{4}
+\contentsline {section}{\numberline {3}Examples}{4}
+\contentsline {subsection}{\numberline {3.1}simplify}{4}
+\contentsline {subsection}{\numberline {3.2}Round the Numeral}{5}
+\contentsline {subsection}{\numberline {3.3}Expanded Notation}{5}
+\contentsline {subsection}{\numberline {3.4}Fractions}{5}
+\contentsline {subsection}{\numberline {3.5}Reducing Fractions}{5}
+\contentsline {subsection}{\numberline {3.6}Simple Fractions}{6}
+\contentsline {subsection}{\numberline {3.7}Complex Fractions}{6}
