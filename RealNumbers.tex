@@ -1,6 +1,6 @@
 \documentclass[]{article}
 \usepackage{pgfplots}
-
+\usepackage{amsmath}
 \usepackage[letterpaper]{geometry}
 \geometry{top=0.5in, left=0.6in, right=0.5in, bottom=0.5in}
 
@@ -20,29 +20,36 @@
 \section{Types of Numbers}
 \subsection{Whole Numbers}
 $$ (0,1,2,3,4)$$
+
 \subsection{Natural Numbers}
 These are also known as "counting numbers". $$(1,2,3,4...)$$
+
 \subsection{Integers}
 Any whole number that does not have decimal or fractional part.
 $$(-3,-2,-1,0,1,2,3,4...)$$
+
 \subsection{Even Numbers}
 These numbers can be easily divisible by two.
 $$(2,4,6,8...)$$
+
 \subsection{Odd numbers}
 Number NOT easily divisible by two.
 $$(1,3,5,7...)$$
+
 \subsection{Prime Number}
-Numbers that are not evenly divisible by themselves or one.\footnote{Two is the only even prime number.}
+Numbers that are only evenly divisible by themselves or one.\footnote{Two is the only even prime number.}
 $$(2,3,5,7,11,13,17,19,23...)$$
+
 \subsection{Irrational Number}
 A decimal number that goes on forever and does not repeat. \footnote{$\pi$ is probably the most famous irrational number.}
 $$(3.1415926..., \sqrt 2)$$
+
 \subsection{Rational Number}
 The opposite of an irrational number. These numbers will eventually end or start repeating.
 $$(3.5,3.33333...)$$
+
 \subsection{Number Line}
 All real numbers can be found on the number line.
-
 \begin{tikzpicture}
 \begin{axis}[
 axis y line=none,
@@ -62,11 +69,13 @@ xtick={113,114,...,121}
 \end{axis}
 \end{tikzpicture}
 
+
 \section{Examples: Types of Numbers}
 $$\sqrt {81} = 9 $$
 $$\sqrt {49} = 7 $$
 $$\sqrt {25} = 5 $$
 $$\sqrt {NegativeNumber} = NOT REAL$$ \footnote{Imaginary Numbers are for another lesson.}
+
 
 \subsection{Simplify}
 $$6 \times (7 - 4) \div 3 + 8 - 3 $$
@@ -76,6 +85,7 @@ $$6 \div 3 + 8 - 3 $$
 $$6 \div 8 - 3 $$
 $$14 - 3$$
 $$ 11$$
+
 
 \subsection{Round the Numeral}
 \begin{itemize}
@@ -89,6 +99,7 @@ $$ 11$$
 	\end{itemize}
 \end{itemize}
 
+
 \subsection{Expanded Notation}
 \begin{itemize}
 	\item This is the Standard Form: 85,379.
@@ -101,6 +112,7 @@ $$ 11$$
 	$$9$$
 \end{itemize}
 
+
 \section{Word Problems}
 \subsection{Adding}
 These are words that you will want to recognize as additoin when reading a Math problem.
@@ -112,6 +124,7 @@ These are words that you will want to recognize as additoin when reading a Math 
 \item Plus
 \end{itemize}
 
+
 \subsection{Subtracting}
 Same as addition, these are words to recognoze when reading a word problen dealing with subtraction.
 \begin{itemize}
@@ -122,6 +135,7 @@ Same as addition, these are words to recognoze when reading a word problen deali
 	\item Less than
 	\item from
 \end{itemize}
+
 
 \subsection{Multiply}
 Words that point to multiplication. 
@@ -142,12 +156,12 @@ Words to be recognized when one needs to divide.
 \end{itemize}
 
 
-
 \section{Fractions}
 These are part of a whole.
 \begin{equation}
 	\frac {3}{5} 
 \end{equation}
+
 
 \subsection{Reducing Fractions}
 Common Multiple.
@@ -167,6 +181,7 @@ Common Factor.
 \begin{equation}
 \frac {8}{24} = \frac {8 \div 8}{24 \div 8} = \frac {1}{3}
 \end{equation}
+
 
 \subsection{Simple Fractions}
 \begin{itemize}
@@ -190,14 +205,22 @@ Common Factor.
 		\end{itemize}
 \end{itemize}
 
+
 \subsection{Complex Fractions}
 \begin{itemize}
 	\item Mixed Numbers:
 	\begin{equation}
 	3 \frac{2}{5}
 	\end{equation}
+	\begin{itemize}
+		\item Turning Mixed Numbers into an improper Fraction:
+		\begin{equation}
+			W \frac{N}{D} = D \times W + N = Improper Fraction
+		\end{equation}
+	\end{itemize}
 	\item Decimals:  3.5, 5.975
 \end{itemize}
+
 
 \subsection{Dividing  Fractions}
 \begin{itemize}
@@ -206,17 +229,21 @@ Common Factor.
 		\frac{A}{B} \div \frac{N}{D}  =  \frac{A}{B} \times \frac{D}{B}		
 	\end{equation}
 	\item
-		$$10 \div 10 = 1$$ 
-		$$10 \div 5 = 2$$
-		$$10 \div 2 = 5$$
-		$$10 \div 1 = 10$$
-		$$10 \div \frac{1}{2} = 20$$
-		$$10 \div \frac{1}{5} = 50$$
-		$$10 \div \frac{1}{10} = 100$$
-		$$10 \div 20 = \frac{1}{2}$$
-		$$10 \div 30 = \frac{1}{3}$$
-		
+	\begin{equation}
+		\begin{split}
+		10 &\div 10 = 1 \\
+		10 &\div 5 = 2 \\
+		10 &\div 2 = 5 \\
+		10 &\div 1 = 10 \\
+		10 &\div \frac{1}{2} = 20 \\
+		10 &\div \frac{1}{5} = 50 \\
+		10 &\div \frac{1}{10} = 100 \\
+		10 &\div 20 = \frac{1}{2} \\
+		10 &\div 30 = \frac{1}{3} \\
+		\end{split}
+	\end{equation}
 \end{itemize}
+
 
 \section{Examples: Fractions}
 \begin{equation}
@@ -225,6 +252,7 @@ Common Factor.
 \begin{itemize}
 	\item Anything Divided by Zero will always be Zero.
 \end{itemize}
+
 
 \subsection{Adding Fractions}
 \begin{itemize}
@@ -245,22 +273,45 @@ Common Factor.
 \end{itemize}
 	\item Different Denominator.
 	\begin{equation}
-		\frac{1}{2} + \frac{1}{5} = Find LCM 
+		\frac{1}{2} + \frac{1}{5} = \text{Find LCM}
 	\end{equation}
 	\item $2 = 2,4,6,8,10... $
 	\item $5 = 5,10,15... $
 			=10
 	\begin{equation}
-		\frac{5}{10} + \frac{2}{10} = \frac{7}{5} (Cannot be Reduced)
+		\frac{5}{10} + \frac{2}{10} = \frac{7}{5}  \text{Cannot be Reduced}
 	\end{equation}
-	
-
-	
 \end{itemize}
+
 
 \subsection{Subtracting Fractions}
 \begin{itemize}
-	\item 
+	\item Most of the steps for Subtraction are similar to Addition:
+	\item Ex: 1
+	\begin{equation}
+		\frac{8}{13} - \frac{1}{13} = \frac{7}{13}
+	\end{equation}
+	\item Ex: 2
+	\begin{equation}
+		\frac{5}{8} - \frac{3}{8} = \frac{2}{8}
+	\end{equation}
+	\item Ex: 3
+	\begin{align}
+	\frac{7}{9} - \frac{2}{3} (=INTO>) \frac{7}{9} - \frac{6}{9} = \frac{1}{9}\\
+	x
+	\end{align}
+	\item Ex:
+	 \begin{align}
+	 \text{First turn mixed number into improper fraction.} \\	
+		8 \frac{1}{2} - 3 \frac{2}{5} (=INTO>)   \\
+		\text{LCM: (2=2,4,6,8,10...),(5=5,10,15...)} \\
+		\frac{17 \times 5}{2 \times 5} - \frac{17 \times 2}{5 \times 2} (=INTO>) \frac{85}{10} - \frac{34}{10} (=EQUALS>) \frac{51}{10}\\
+		\text{This answer can be turned into a Proper Fraction(Mixed Number)} \\
+		= 5 \frac{1}{10}
+	\end{align}
+	
+	
+	
 \end{itemize}
 
 
